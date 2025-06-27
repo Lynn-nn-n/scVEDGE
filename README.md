@@ -16,7 +16,7 @@
 
 ## 🗂️ Project Structure
 
-scVEDGE/
+scVEDGE/  
 ├── Data/ # Input datasets, preprocessed data, and resultant data from experiments conducted in paper  
 ├── model_trained/ # Trained models from experiments conducted in paper  
 ├── scripts/ # Training / evaluation / inference scripts for experiments conducted in paper  
@@ -111,6 +111,7 @@ adata_atac = adata[adata.obs.modality == 'accessibility']
 rna_imputed = mvi.get_normalized_expression(adata_atac)
 ```
 to get rna_imputed.
+
 ---
 
 ## 📬 Contact
