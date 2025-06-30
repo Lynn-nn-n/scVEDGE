@@ -32,7 +32,7 @@ scVEDGE/
 
 ```
 #bash
-git clone https://github.com/your-username/scVEDGE.git  #github地址
+git clone https://github.com/Lynn-nn-n/scVEDGE.git 
 cd scVEDGE
 pip install .
 ```
