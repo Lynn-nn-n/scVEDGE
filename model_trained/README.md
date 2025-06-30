@@ -1,6 +1,6 @@
 # model_trained Folder
 See https://zenodo.org/uploads/15770500 for this part.  
-⚠️ Note: Manual Modification Required to Load Pretrained Models
+⚠️ Note: Manual Modification Required to Load Pretrained Models  
 The name of our model class was changed after the experiments were completed and the models were saved. As a result, when attempting to load these saved models in this folder, the class name stored in the checkpoint does not match the current model class name in the code.  
 
 To successfully load the models, you will need to manually modify the following file in your installed scvi-tools package:
