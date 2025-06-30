@@ -36,7 +36,7 @@ git clone https://github.com/your-username/scVEDGE.git  #github地址
 cd scVEDGE
 pip install .
 ```
-Make sure you have Python < 3.13 (We suggest 3.12).
+Make sure you have Python < 3.13 (We suggest 3.12). 
 
 ---
 

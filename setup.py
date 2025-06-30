@@ -6,7 +6,7 @@ setup(
     author="Xie Lingyun",
     author_email="lynnnx1208@gmail.com",
     description="A VAE/GAN framework for robust single-cell multi-omics integration",
-    url="https://github.com/Lynn-nn-n/scVEDGE",  # GitHub 地址
+    url="https://github.com/Lynn-nn-n/scVEDGE",
     packages=['scvedge'],
     include_package_data=False,
     python_requires=">=3.8,<3.13",
@@ -21,5 +21,5 @@ setup(
         "scvi-tools==1.2",
         "typing-extensions>=4.0,<5.0",
         "requests",
-    ],## not sure bout this
+    ],
 )

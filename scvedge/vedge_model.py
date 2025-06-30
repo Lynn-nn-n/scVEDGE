@@ -7,7 +7,7 @@ import torch
 from anndata import AnnData
 from scvi import REGISTRY_KEYS,settings
 from scvi.data import AnnDataManager
-from vedge_network import VEDGE_NET
+from scvedge.vedge_network import VEDGE_NET
 from trainingPlans import AdversarialTrainingPlan
 import warnings
 from scvi.train._callbacks import SaveBestState
