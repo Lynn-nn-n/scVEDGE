@@ -4,8 +4,8 @@ from scvi import REGISTRY_KEYS
 from typing import Literal
 from scvi.module.base import BaseModuleClass, LossOutput, auto_move_data
 
-from encoder import Encoder
-from discriminator import Discriminator
+from scvedge.encoder import Encoder
+from scvedge.discriminator import Discriminator
 
 from collections.abc import Iterable
 from typing import Literal
