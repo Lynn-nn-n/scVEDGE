@@ -11,7 +11,7 @@ setup(
     include_package_data=False,
     python_requires=">=3.8,<3.13",
     install_requires=[
-        "torch>=2.0.0,<3.0.0",
+        "torch>=2.0.0,<2.6.0",
         "lightning>=2.0.0,<3.0.0",
         "optax>=0.1.6",
         "numpy>=1.21,<2.0",
