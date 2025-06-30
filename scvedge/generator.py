@@ -1,6 +1,6 @@
 import torch
 from typing import Iterable
-from mlp import MLP
+from scvedge.mlp import MLP
 class Generator(torch.nn.Module):
     def __init__(
         self,

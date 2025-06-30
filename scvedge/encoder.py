@@ -1,6 +1,6 @@
 import torch
 from typing import Iterable, Optional, Callable
-from mlp import MLP
+from scvedge.mlp import MLP
 def _identity(x):
     return x
 class Encoder(torch.nn.Module):

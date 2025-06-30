@@ -1,6 +1,6 @@
 import torch
 from typing import Iterable
-from mlp import MLP
+from scvedge.mlp import MLP
 from torch.nn.utils import spectral_norm
 import torch.nn as nn
 import torch.nn.init as init
